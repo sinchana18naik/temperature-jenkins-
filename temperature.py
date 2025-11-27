@@ -5,9 +5,9 @@ if len(sys.argv)==2:
 else:
   temp=35
 
-if temp < 15:
+if (temp < 15):
   alert="cold"
-elif temp < 30:
+elif (temp < 30):
   alert="normal"
 else:
   alert="hot"
